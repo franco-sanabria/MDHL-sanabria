@@ -1,0 +1,219 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 237, 103);
+}
+.rlink{
+    text-decoration:none;
+    text-align:center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Panchang', sans-serif;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: rgb(0, 0, 0);
+}
+.active {
+    color: rgb(95, 161, 153);
+}
+.h-img {
+    width: 36rem;
+    height: 32rem;
+    border-radius: 1rem;
+    margin-left: 30px;
+}
+.h1 {
+    font-size: 5rem;
+    padding-left: 30px ;
+    height: 15rem;
+    font-family: 'Panchang', sans-serif;
+    padding-bottom: 200px;
+    background-color: rgb(255, 237, 103);
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+.main1  {
+    height: 40rem;
+}
+.main2  {
+    display:grid;
+}
+.main3  {
+    display: flex;
+    height: 42rem;
+}
+.main4  {
+    align-content: center;
+    justify-content: center;
+    font-family: 'Panchang', sans-serif;
+    text-align: center;
+}
+.main5  {
+    align-content: center;
+    display: flex;
+}
+.main6  {
+    align-content: center;
+    display: flex;
+    height: 25rem;
+}
+img{
+    width: 36rem;
+    height: 32rem;
+    margin-top: 5rem;
+}
+.p1 {
+    font-size: 20px;
+    font-family:cursive;
+    margin-right: 3rem;
+    margin-top: 2%;
+    color: rgb(0, 0, 0);
+    width: 40%;
+    font-style: oblique;
+    font-family: 'Panchang', sans-serif;
+    text-align: left;
+    padding-left: 25px;
+}
+.p2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-top: 150px;
+    transform: translateX(42rem) translateY(-40rem);
+    width: 20rem;
+    height: 2rem;
+    text-align: left;
+    font-family: 'Panchang', sans-serif;
+    }
+.p3 {
+    color: rgb(0, 0, 0);
+    justify-content: left;
+    font-family: 'Panchang', sans-serif;
+    padding-left: 25px;
+}
+.p4 {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    size: 50rem;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family: 'Panchang', sans-serif;
+}
+.p5 {
+    margin-top: 10rem;
+    margin-left: 15rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: 'Panchang', sans-serif;
+}
+.p6 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Panchang', sans-serif;
+}
+.logo   {
+    width: 15rem;
+    height: 15rem ;
+    margin-top: 0;
+    padding-left: 5px;
+    background-color: rgb(255, 237, 103);
+}
+.logo2  {
+    border-radius: 1.5rem;
+    height: 50rem ;
+    width: 65rem;
+    margin: bottom 20rem;
+    margin: left 30rem;
+}
+.logo3  {
+    border-radius: 1.5rem;
+    height: 40rem;
+    padding-right: 15px;
+    transform: translateY(-70px)
+    
+}
+.logo4  {
+    
+    border-radius: 1.5rem;
+    height: 20rem;
+    width: 35rem;
+    margin-left: 30px;
+    transform: translateY(-40px)
+    
+}
+.logo5  {
+    border-radius: 1.5rem;
+    height: 15rem;
+    width: 30rem;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+.table {
+    height:20rem ;
+    width: 80rem;
+    background-position: center;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+    border-top: solid black;
+}
+tr, td {
+    height: 7rem;
+    margin-left: 5rem;
+    font-family: 'Panchang', sans-serif;
+    padding-left: 55px;
+    border-bottom: solid black;
+}
+tr {
+    border: 0;
+}
+footer  {
+    text-align: left;
+    font-family: 'Panchang', sans-serif;
+    padding-left: 5px;
+}
+.div {
+    height: 10rem;
+    width: 10rem;
+}
+.button {
+    font-family: 'Panchang', sans-serif;
+    width: 75px;
+    height: 50px;
+}
+fieldset {
+    border: none;
+}
+
+ /*media queris
+@media screen and (max-width:rgba(252, 236, 17, 0.897) {
+    .main1{
+        background-color: aqua;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .main1 {
+        background-color: red;
+    }
+    .rlink {
+        font-size: 100px
+    }
+};*/
