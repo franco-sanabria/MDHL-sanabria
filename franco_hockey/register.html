@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDHL - REGISTER</title>
+    <link rel="shortcut icon" href="./Assets/img/Pablo-Helu-Task1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=panchang@200,500,600,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p class="p1">
+                REGISTER
+            </p>
+            <a class="rlink" href="index.html">Home</a>
+            <a class="rlink" href="game_information.html">Game information</a>
+            <a class="rlink" href="rules.html">Rules</a>
+            <a class="rlink active" href="register.html">Register</a>
+            <a class="rlink" href="contact.html">Contact</a>
+            <a class="rlink" href="about.html">About</a>
+        </nav>
+        <section>
+            <img src="./Assets/img/Pablo-Helu-Task1.png" class="logo" alt="">
+            <h1 class="h1">
+                MIGHTY DUCKS HOCKEY LEAGUE
+            </h1>
+        </section>
+    </header>
+    <main class="main4">
+        <div class="div"><img src="https://previews.123rf.com/images/ylivdesign/ylivdesign1707/ylivdesign170732760/83067101-icono-de-palos-de-hockey-sobre-hielo-ilustraci%C3%B3n-de-dibujos-animados-de-icono-de-vector-de-palos-de.jpg" alt=""></div>
+        <form action="./showdata.html" method="get">
+            <br>
+            <fieldset>
+                <label for="name">Player's First Name:</label>
+                <input type="text" name="name" id="name">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="last">
+                <br>
+            </fieldset>
+            <fieldset>
+                <label for="street">Street Adress:</label>
+                <input type="text" name="street" id="street">
+
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city">
+
+                <label for="zip">Zip Code:</label>
+                <input type="zip" name="zip" id="zip">
+                <br>
+            </fieldset>
+            <fieldset>
+                <label for="birthday">Birth Date (mm/dd/yyyy)</label>
+                <input type="date" name="birthday" id="birthday">
+
+                <label for="">Gender:</label>
+                <input type="checkbox" name="gender" id="gender" value="male">
+                <label for="gender">Male</label>
+
+                <input type="checkbox" name="gender" id="gender" value="female">
+                <label for="gender">Female</label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <label for="">Grade:</label>
+                <input type="checkbox" name="grade" id="grade" value="pre-school">
+                <label for="grade">Pre-School</label>
+
+                <input type="checkbox" name="grade" id="grade" value="1st">
+                <label for="grade">1st</label>
+
+                <input type="checkbox" name="grade" id="grade" value="2nd">
+                <label for="grade">2nd</label>
+
+                <input type="checkbox" name="grade" id="grade" value="3rd">
+                <label for="grade">3rd</label>
+
+                <input type="checkbox" name="grade" id="grade" value="4th">
+                <label for="grade">4th</label>
+
+                <input type="checkbox" name="grade" id="grade" value="5th">
+                <label for="grade">5th</label>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <p><b>Wich elementary school do you live near? (check all that apply):</b></p>
+                <input type="checkbox" name="position" id="position" value="forward">
+                <label for="position">Forward</label>
+
+                <input type="checkbox" name="position" id="position" value="midfield">
+                <label for="position">Midfield</label>
+
+                <input type="checkbox" name="position" id="position" value="defense">
+                <label for="position">Defense</label>
+
+                <input type="checkbox" name="position" id="position" value="goalkeeper">
+                <label for="position">Goalkeeper</label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <p><b>Uniform size:</b></p>
+
+                <input type="checkbox" name="size" id="size" value="ysmall">
+                <label for="size">Youth Small</label>
+
+                <input type="checkbox" name="size" id="size" value="ymedium">
+                <label for="size">Youth Medium</label>
+
+                <input type="checkbox" name="size" id="size" value="ylarge">
+                <label for="size">Youth Large</label>
+
+                <input type="checkbox" name="size" id="size" value="small">
+                <label for="size">Small</label>
+
+                <input type="checkbox" name="size" id="size" value="medium">
+                <label for="size">Medium</label>
+
+                <input type="checkbox" name="size" id="size" value="large">
+                <label for="size">Large</label>
+
+                <input type="checkbox" name="size" id="size" value="e-large">
+                <label for="size">Extra-Large</label>
+                <br>
+            </fieldset>
+            <p>Permission To Play:
+                <br>
+                I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the posibility of physical injury
+                associated whith hockey and in consideration for the "League" accepting the registrant for its hockey
+                programs and activities, Y hereby release, discharge and or otherwise indemnify MDHL, their employees
+                and associated personnel and volunters, indluding the facilities used for practice and games, against
+                any claim by or behalf of the registrant as a result of the registrant's participation in the
+                programand/orbeing transported to or from MDHL sponsored activities, wich transportation. By signing
+                below, Y hereby agree and authorize the above. In adittion, by entering my name below I also acknowledge
+                that I have read the cancellation policy and agree to its terms.
+            </p>
+            <br>
+            <fieldset>
+                <label for="signature">Parents/Guardian Signature:</label>
+                <input type="text" name="signature" id="signature">
+
+                <label for="date">Date (mm/dd/yyyy)</label>
+                <input type="date" name="date" id="date">
+                <br>
+            </fieldset>
+            <button class="button">
+                <b>
+                    Enviar
+                </b>
+            </button>
+        </form>
+    </main>
+    <br>
+</body>
+
+</html>
